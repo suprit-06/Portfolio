@@ -12,11 +12,21 @@ const inter = Inter({
   subsets: ["latin"],
 });
 
+import { portfolioData } from "@/config/data";
+
 export const metadata: Metadata = {
-  title: "Software Engineer Portfolio",
-  description: "Senior Frontend & Full Stack Developer Portfolio",
+  title: {
+    default: portfolioData.personal.name,
+    template: `%s | ${portfolioData.personal.name}`,
+  },
+  description: portfolioData.personal.summary,
   icons: {
-    icon: "/icon.png",
+    icon: [
+      {
+        url: "/icon.png",
+        type: "image/png",
+      }
+    ],
   },
 };
 
