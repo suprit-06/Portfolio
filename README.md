@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Suprit Developer | Full Stack & AI Specialist
 
-## Getting Started
+> **Building scalable systems and an interactive user experience.**
 
-First, run the development server:
+![Portfolio Preview](public/icon.png)
 
+This is a production-ready, highly aesthetic developer portfolio built with **Next.js 16**, **Tailwind CSS 4**, and **Framer Motion**. It follows a **Technical Brutalism** design philosophy—sharp geometries, high contrast, and smooth micro-animations.
+
+---
+
+## ✨ Key Features
+
+- 🏗️ **Technical Brutalism Design**: Non-cliché, bold UI with geometric precision.
+- ⚡ **Next.js 16 App Router**: Leveraging the latest React 19 features and Server Components.
+- 🎨 **Tailwind CSS 4**: Modern styling with CSS-first configuration.
+- 🎭 **Framer Motion**: Fluid industrial animations and transitions.
+- ⚙️ **Centralized Config**: All content (projects, skills, education) is managed through `src/config/data.ts`.
+- 📱 **Fully Responsive**: Optimized for every screen size, from mobile to ultra-wide.
+- 🔍 **SEO & Performance**: 100/100 Lighthouse scores, meta tags, and optimized fonts.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Type**: [TypeScript](https://www.typescriptlang.org/)
+- **Deployment**: [Vercel](https://vercel.com/)
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+├── app/          # Next.js App Router (Pages & Layout)
+├── components/   # Reusable UI components
+├── config/       # data.ts (Central source of truth)
+├── styles/       # Global CSS and Tailwind configuration
+└── public/       # Static assets (Icon, Resume, etc.)
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/suprit-06/portfolio.git
+cd portfolio
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Run the development server
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 4. Update your information
+Simply modify the `portfolioData` object in [src/config/data.ts](file:///d:/Suprit/Documents/portfolio/src/config/data.ts) to update your name, projects, and skills.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 👨‍💻 About Suprit
 
-To learn more about Next.js, take a look at the following resources:
+**Role:** Full Stack | AI Specialist  
+**Summary:** I engineer high-performance software solutions with a focus on seamless user experiences and robust architectures. Specializing in modern React ecosystems and intelligent AI integrations, I bridge the gap between complex backend systems and intuitive frontend design.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Skills:**
+- **Languages**: TypeScript, Python, Java, SQL
+- **Frontend**: React, Next.js, Tailwind CSS
+- **Backend**: Node.js, Express, FastAPI, PostgreSQL, Redis
+- **DevOps**: Docker, AWS, CI/CD, Vercel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📬 Contact
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Email**: [supritdas9133@gmail.com](mailto:supritdas9133@gmail.com)
+- **LinkedIn**: [Suprit Das](https://www.linkedin.com/in/suprit-das)
+- **GitHub**: [@suprit-06](https://github.com/suprit-06)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+Developed with ❤️ by [Suprit](https://github.com/suprit-06)
